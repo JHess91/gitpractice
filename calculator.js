@@ -10,8 +10,7 @@ console.log(`Hey there ${name}`)
 
 let tryAgain = true
 
-while (tryAgain == true){
-   
+while (tryAgain == true) {
   const operation = prompt(`Please choose an operation: + , - , * , / `)
 
   let first = prompt(`Enter your first number `)
@@ -34,23 +33,14 @@ while (tryAgain == true){
       console.log(x / y)
       break
   }
-  
 
-   reRun = prompt('Would you like to run Calculator again? (Yes/No) ')
-   
-  if (reRun == 'Yes'){
-    // tryAgain == true
+  reRun = prompt('Would you like to run Calculator again? (Yes/No) ')
+
+  if (reRun == 'Yes') {
     console.clear
- } if (reRun == 'No'){  // tryAgain == false
+  } else (reRun == 'No') {
     console.clear()
     console.log(`Have a great day!`)
     process.exit()
+  }
 }
-
-}
-
-
-
-
-
-
