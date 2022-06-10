@@ -38,7 +38,7 @@ while (tryAgain == true) {
 
   if (reRun == 'Yes') {
     console.clear
-  } else (reRun == 'No') {
+  } if (reRun == 'No') {
     console.clear()
     console.log(`Have a great day!`)
     process.exit()
